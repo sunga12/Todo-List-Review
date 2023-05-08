@@ -1,5 +1,7 @@
 import Task from './task.js';
 import menu from './menu.svg';
+import refresh from './refresh.svg';
+import enter from './enter-add.svg';
 
 export default class Tasks {
   constructor(tasks = []) {
