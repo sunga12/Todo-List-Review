@@ -1,20 +1,5 @@
 import Tasks from './taskFunctions.js';
 import './style.css';
-import refresh from './refresh.svg';
-import enter from './enter-add.svg';
-
-const todoTitle = document.querySelector('.title');
-
-const addToList = document.querySelector('.add-task');
-
-const refreshIcon = document.createElement('img');
-const enterIcon = document.createElement('img');
-refreshIcon.src = refresh;
-enterIcon.src = enter;
-refreshIcon.className = 'refresh';
-enterIcon.className = 'enter';
-todoTitle.appendChild(refreshIcon);
-addToList.appendChild(enterIcon);
 
 const typeTask = document.getElementById('add-to-list');
 
