@@ -1,7 +1,7 @@
 import Tasks from './taskFunctions.js';
 import './style.css';
-import refresh from './assets/images/refresh.svg';
-import enter from './assets/images/enter-add.svg';
+import refresh from './refresh.svg';
+import enter from './enter-add.svg';
 
 const todoTitle = document.querySelector('.title');
 
