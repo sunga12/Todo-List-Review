@@ -29,9 +29,7 @@ document.addEventListener('click', (event) => {
     todoList.addTask(typeTask.value, false);
   }
   typeTask.value = '';
-});
-
-document.addEventListener('click', (event) => {
+  
   const deleteIcons = document.querySelectorAll('.menu');
 
   deleteIcons.forEach((icon, index) => {
@@ -43,6 +41,10 @@ document.addEventListener('click', (event) => {
   if (event.target.matches('.clear-all')) {
     todoList.clearCompleted();
   }
+});
+
+document.addEventListener('click', (event) => {
+
 });
 
 document.addEventListener('change', (event) => {
