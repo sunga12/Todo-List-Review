@@ -1,5 +1,5 @@
 import Task from './task.js';
-import menu from './assets/images/menu.svg';
+import menu from './menu.svg';
 
 export default class Tasks {
   constructor(tasks = []) {
