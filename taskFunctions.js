@@ -52,6 +52,17 @@ export default class Tasks {
 
   loadTasks() {
     const todoList = document.querySelector('.todo-list');
+    const todoTitle = document.querySelector('.title');
+    const addToList = document.querySelector('.add-task');
+
+    const refreshIcon = document.createElement('img');
+    const enterIcon = document.createElement('img');
+    refreshIcon.src = refresh;
+    enterIcon.src = enter;
+    refreshIcon.className = 'refresh';
+    enterIcon.className = 'enter';
+    todoTitle.appendChild(refreshIcon);
+    addToList.appendChild(enterIcon);
 
     this.tasks.forEach((task) => {
       const taskLi = document.createElement('li');
